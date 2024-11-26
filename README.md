@@ -1,41 +1,41 @@
-# Classification du Cancer du Sein : Analyse Comparative des Algorithmes SVM et Arbre de Décision
+# Breast Cancer Classification: Comparative Analysis of SVM and Decision Tree Algorithms
 
-## Description du Projet
-Ce projet vise à effectuer une analyse comparative entre deux algorithmes de classification populaires : **SVM (Support Vector Machine)** et **Arbre de Décision**. L'objectif est de classer les tumeurs du sein en **malignes** ou **bénignes** en se basant sur des caractéristiques extraites d'images numériques.  
-Les étapes principales incluent le prétraitement des données, l'entraînement des modèles, l'évaluation des performances et l'interprétation des résultats.
+## Project Description
+This project aims to perform a comparative analysis between two popular classification algorithms: **SVM (Support Vector Machine)** and **Decision Tree**. The goal is to classify breast tumors as **malignant** or **benign** based on features extracted from digital images.  
+The main steps include data preprocessing, model training, performance evaluation, and result interpretation.
 
 ---
 
-## Table des Matières
-- [Données](#données)
-- [Prérequis](#prérequis)
+## Table of Contents
+- [Data](#data)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Étapes du Projet](#étapes-du-projet)
-  - [Prétraitement des Données](#prétraitement-des-données)
-  - [Modèle SVM](#modèle-svm)
-  - [Modèle Arbre de Décision](#modèle-arbre-de-décision)
-  - [Évaluation des Modèles](#évaluation-des-modèles)
-- [Résultats](#résultats)
+- [Project Steps](#project-steps)
+  - [Data Preprocessing](#data-preprocessing)
+  - [SVM Model](#svm-model)
+  - [Decision Tree Model](#decision-tree-model)
+  - [Model Evaluation](#model-evaluation)
+- [Results](#results)
 - [Conclusion](#conclusion)
-- [Licence](#licence)
+- [License](#license)
 
 ---
 
-## Données
-Les données utilisées dans ce projet contiennent des informations sur les tumeurs du sein, notamment des caractéristiques telles que :
-- Rayon moyen
-- Texture moyenne
-- Périmètre moyen
+## Data
+The data used in this project contains information about breast tumors, including features such as:
+- Mean radius
+- Mean texture
+- Mean perimeter
 - Etc.  
 
-Ces données ont été nettoyées, normalisées et prêtes à l'emploi.
+This data has been cleaned, normalized, and is ready to use.
 
 ---
 
-## Prérequis
-Assurez-vous d'avoir installé les dépendances suivantes avant de commencer :
+## Prerequisites
+Ensure that you have the following dependencies installed before you start:
 - Python 3.x
-- Bibliothèques : 
+- Libraries: 
   - `pandas`
   - `scikit-learn`
   - `matplotlib`
@@ -44,7 +44,7 @@ Assurez-vous d'avoir installé les dépendances suivantes avant de commencer :
 ---
 
 ## Installation
-Clonez ce repository et installez les dépendances nécessaires :  
+Clone this repository and install the necessary dependencies:  
 ```bash
 git clone https://github.com/niamat-sirrou/Cancer_Classification_SVM_DecisionTree.git
 cd Cancer_Classification_SVM_DecisionTree
